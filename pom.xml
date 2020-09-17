@@ -3,6 +3,14 @@
   <groupId>de.aw.blog</groupId>
   <artifactId>root</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  <distributionManagement>
+	<snapshotRepository>
+		<id>nexus-snapshots</id>
+		<url>http://localhost:8081/repository/maven-snapshots</url>
+	</snapshotRepository>
+</distributionManagement>
+
   <packaging>pom</packaging>
   <name>Maven Multi Module Root of Blog Application</name>
   <modules>
